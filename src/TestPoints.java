@@ -5,6 +5,10 @@ public class TestPoints {
 		Point p1 = new Point(2, 4);
 		Point p2 = new Point(-2, 4);
 		
+		// Print out the point:
+		System.out.println(p1); // Task: make it print out in a user-friendly way
+		
+		
 		System.out.println("Distance from zero for p1 = " + 
 				p1.distanceFromZero());
 		System.out.println("Distance from zero for p2 = " + 
@@ -24,6 +28,7 @@ public class TestPoints {
 		ColorPoint cp1 = new ColorPoint(2, 4, "blue");
 		ColorPoint cp2 = new ColorPoint(-2, 4, "green");
 		
+		// Task: make it print out in a user-friendly way
 		System.out.println(cp1);
 
 		

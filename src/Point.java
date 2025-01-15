@@ -4,7 +4,7 @@ public class Point {
 	protected int y;
 	// Scope of a variable: where it can be accessed
 	
-	// Task 1: Can we count how many points we have created? 
+	// Task: Can we count how many points we have created? 
 	
 	// Constructor:
 	public Point (int x, int y) {
