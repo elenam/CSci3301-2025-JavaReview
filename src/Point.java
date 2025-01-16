@@ -5,6 +5,7 @@ public class Point {
 	// Scope of a variable: where it can be accessed
 	
 	// Task: Can we count how many points we have created? 
+	private static int counter; // initialized to 0 by default
 	
 	// Constructor:
 	public Point (int x, int y) {
@@ -12,6 +13,7 @@ public class Point {
 		// parameters are local variables: they exist only within a method
 		this.x = x; 
 		this.y = y;
+		++counter;
 	}
 
 	// the method returns the x coordinate of the point
@@ -35,6 +37,13 @@ public class Point {
 		int xd = this.x - other.x;
 		int yd = this.y - other.y;
 		return Math.sqrt(xd*xd + yd*yd);
-	}	
+	}
+	
+	public String toString() {
+		return "Point: x = " + x + ", y = " + y;
+	}
 
+	public int getCounter() {
+		return counter;
+	}
 }

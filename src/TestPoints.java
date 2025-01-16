@@ -16,6 +16,7 @@ public class TestPoints {
 		
 		
 		// How can we get p1's x and y?
+		System.out.println("x = " + p1.getX());
 		
 		// Can we change x or y in points?
 		
@@ -33,10 +34,14 @@ public class TestPoints {
 
 		
 		// Can I find their distance from zero? 
+		System.out.println(cp1.distanceFromZero());
 
-		
 		// Can I find distance between two color points? A point and a color point?
-
+		System.out.println(cp1.distance(cp2));
+		System.out.println(p1.distance(cp2));
+		System.out.println(cp1.distance(p2));
+		
+		System.out.println("counter = " + cp2.getCounter());
 		
 	}
 
