@@ -75,7 +75,7 @@ public class TestPoints {
 		// Q5: write a loop to go through the array list that you generate 
 		// in Q4 to do count how many blue (or any color of your choice) color points
 		// there are. 
-		// Print out the counts after the loop.
+		// Print out the count after the loop.
 		// Hint: use instanceof 
 		
 		
