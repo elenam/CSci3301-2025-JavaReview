@@ -32,7 +32,6 @@ public class TestPoints {
 		// Task: make it print out in a user-friendly way
 		System.out.println(cp1);
 
-		
 		// Can I find their distance from zero? 
 		System.out.println(cp1.distanceFromZero());
 
@@ -42,6 +41,43 @@ public class TestPoints {
 		System.out.println(cp1.distance(p2));
 		
 		System.out.println("counter = " + cp2.getCounter());
+		
+		
+		/****Lab Task 1: answer the following questions ********/
+		
+		// Q1: Which of the following is a valid statement? Why?
+		// Point p3 = new ColorPoint(3, 3, "maroon");
+		// ColorPoint cp3 = new Point(3,3);
+		
+		// Q2: Uncomment a valid statement above. How can you call 
+		// getColor() on the resulting variable? 
+		
+		// Clearly explain what is required from the type safety standpoint
+		// to call this method. 
+		// Hint: use typecasting. 
+		
+		// Once you get the method to work, print out the result of getColor()
+		
+		// Q3: see ColorPoint class. 
+		
+		// Q4: create an array list of points. Then add 10 points to it,
+		// randomly choosing between regular points and color points. 
+		// Generate the objects as follows:
+		// Each object has a 50% chance to be a Point or a ColorPoint
+		// Both x and y coordinates are random ints between -10 and 10 inclusive
+		// The color for a ColorPoint is randomly chosen among at least two colors. 
+		
+		// Extra credit: Generate random colors that have an equal chance to 
+		// take any value in the enum, regardless of how many there are 
+		// in the enum.
+		
+		
+		// Q5: write a loop to go through the array list that you generate 
+		// in Q4 to do count how many blue (or any color of your choice) color points
+		// there are. 
+		// Print out the counts after the loop.
+		// Hint: use instanceof 
+		
 		
 	}
 
