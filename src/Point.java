@@ -35,6 +35,10 @@ public class Point {
 		int xd = this.x - other.x;
 		int yd = this.y - other.y;
 		return Math.sqrt(xd*xd + yd*yd);
-	}	
+	}
+	
+	public String toString() {
+		return "Point: x = " + x + ", y = " + y;
+	}
 
 }

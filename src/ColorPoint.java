@@ -12,5 +12,7 @@ public class ColorPoint extends Point {
 		return color;
 	}
 	
-
+	public String toString() {
+		return "ColorPoint: x = " + x + ", y = " + y + ", Color: " + color;
+	}
 }
